@@ -1,0 +1,88 @@
+
+#shapeCanvas {
+    height: 600px;
+    width: 600px;
+    background-color: blanchedalmond;
+    position: relative;
+    border: solid;
+}
+
+.rectangle {
+    background-color: green;
+    position: absolute;
+}
+
+.square {
+    background-color: red;
+    position: absolute;
+}
+
+.circle {
+    background-color: purple;
+    position: absolute;
+    border-radius: 50%;
+}
+
+.triangle {
+    /* background-color: yellow; */
+    position: absolute;
+    /* border: solid; */
+
+}
+    
+#sidePanel {
+    background-color: rgb(206, 203, 203);
+    width: 500px;
+    height: 600px;
+    border: solid;
+    text-align: left;
+    padding-top: 10px;
+}
+
+#rectangleForm {
+    background-color: rgb(206, 203, 203);
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    height: 150px;
+    width: 250px;
+    border: solid;
+
+}
+
+#squareForm {
+    background-color: rgb(206, 203, 203);
+    background-color: rgb(206, 203, 203);
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    height: 150px;
+    width: 250px;
+    border: solid;
+}
+
+#circleForm {
+    background-color: rgb(206, 203, 203);
+    background-color: rgb(206, 203, 203);
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    height: 150px;
+    width: 250px;
+    border: solid;
+}
+
+#triangleForm {
+    background-color: rgb(206, 203, 203);
+    background-color: rgb(206, 203, 203);
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    height: 150px;
+    width: 250px;
+    border: solid;
+}
+
+#padding {
+    padding-left: 20px;
+}

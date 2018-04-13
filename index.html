@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css" type="text/css" />
+</head>
+
+<body>
+<div class='row' id='padding'>
+    <div id='shapeCanvas' 'col-md-8'>
+    </div>
+    <div class='d-inline' 'col-md-4' id='sidePanel'>
+        <ul>
+            <li class='d-inline'>Shape Name:
+                <span id='shapeName'></span>
+            </li>
+            <br />
+            <li class='d-inline'>Width:
+                <span id='shapeWidth'></span>
+            </li>
+            <br />
+            <li class='d-inline'>Height:
+                <span id='shapeHeight'></span>
+            </li>
+            <br />
+            <li class='d-inline'>Radius:
+                <span id='shapeRadius'></span>
+            </li>
+            <br />
+            <li class='d-inline'>Area:
+                <span id='shapeArea'></span>
+            </li>
+            <br />
+            <li class='d-inline'>Perimeter:
+                <span id='shapePerimeter'></span>
+            </li>
+
+        </ul>
+    </div>
+
+    <div class='row' 'd-inline'id='formContainer'>
+        <div class='col-sm-3'>
+            <form id='rectangleForm'>
+                <h5>Rectangle:</h5>
+                <input id='rectangleWidth' type="text" name="width" value="width">
+                <br />
+                <input id='rectangleHeight' type="text" name="height" value="height">
+                <br />
+                <button id='rectangleBtn' type="submit" form="rectangleForm" value="Submit">Submit</button>
+                <br />
+            </form>
+        </div>
+        <div class='col-sm-3'>
+            <form id='squareForm'>
+                <h5>Square:</h5>
+                <input id='squareLengths' type="text" name="lengths" value="lengths">
+                <br />
+                <button id='squareBtn' type="submit" form="squareForm" value="Submit">Submit</button>
+                <br />
+            </form>
+        </div>
+
+        <div class='col-sm-3'>
+            <form id='circleForm'>
+                <h5>Circle:</h5>
+                <input id='circleRadius' type="text" name="radius" value="radius">
+                <br />
+                <button id='circleBtn' type="submit" form="circleForm" value="Submit">Submit</button>
+                <br />
+            </form>
+        </div>
+        <div class='col-sm-3'>
+            <form id='triangleForm'>
+                <h5>Issoles Right Triangel:</h5>
+                <input id='triangleHeight' type="text" name="height" value="height">
+                <br />
+                <button id='triangleBtn' type="submit" form="triangleForm" value="Submit">Submit</button>
+                <br />
+            </form>
+        </div>
+        </div>
+
+
+
+
+
+
+
+
+
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous"></script>
+        <script src='script.js'></script>
+</body>
+
+</html>
